@@ -3,6 +3,6 @@
   "private": true,
   "workspaces": ["packages/*"],
   "exports": {
-    "./asdf": "./packages/a/index.js"
+    "./asdf": "./packages/asdf/index.js"
   }
 }
