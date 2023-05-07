@@ -1,5 +1,8 @@
 {
   "name": "npm-workspace-dependency-test",
   "private": true,
-  "workspaces": ["packages/*"]
+  "workspaces": ["packages/*"],
+  "exports": {
+    "./asdf": "./packages/a/index.js"
+  }
 }
