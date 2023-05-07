@@ -1,0 +1,5 @@
+{
+  "name": "npm-workspace-dependency-test",
+  "private": true,
+  "workspaces": ["packages/*"]
+}
